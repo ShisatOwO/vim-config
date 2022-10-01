@@ -1,11 +1,12 @@
 # Catppuccin
 This readme describes the installation and usage of my Catppuccin Neovim Config.
-Highlighting and complompletion are supported for Python, Rust, Java, Toml and Json out of the Box.
+Highlights and complompletions are supported for Python, Rust, Java, Toml and Json out of the Box.
 
 
 ## Installation
 ### Requirements
 * A working [Neovim](https://neovim.io/) Installation.
+* git
 * Your Terminal's font should be set to a NERDfont. I recommend [Fira Code Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)
 * Npm (Used by Treesitter to install parsers) (optinal)
 * A CXX compiler (Used by Treesitter to compile parsers) (optional)
@@ -20,6 +21,7 @@ Highlighting and complompletion are supported for Python, Rust, Java, Toml and J
      * Press `Enter` repeatedly to skip trough the errors and finally press `Enter and then "q"` to close the floating plugin window. Now close nvim by Pressing `ESC` and than entering `:q!`
      * You are now done. Start nvim again and you should have a working config.
   * Windows:
+    * Clone this repository 
     * Install the fonts located in `fonts`
     * Open a terminal and navigate to the root of this repository, execute:
       `python win-nvim-setup`

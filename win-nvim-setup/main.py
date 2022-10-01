@@ -78,5 +78,8 @@ def install():
     if "C:\msys64\mingw64\\bin" not in os.environ["path"]:
         subprocess.run(f'setx path "{os.environ["path"]};C:\msys64\mingw64\\bin;"')
 
+    print("Tried to append gcc location to Path. If you are seeing errors regarding gcc appending it manually")
+    input("Done, please start and restart nvim now. Seeing errors while starting nvim for the first time is normal. Press Enter to Finish.")
+
 if __name__ == "__main__":
     install()

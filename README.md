@@ -14,7 +14,7 @@ Highlighting and complompletion are supported for Python, Rust, Java, Toml and J
     ```
      * Nvim will be started automatically
        > Note: You will get errors, this is normal.
-     * Press `Enter` repeatedly to skip trough the errors and finally press `Enter and then "q"` to close the floating plugin window. Now close nvim by Pressing `ESC and than entering `:q!`
+     * Press `Enter` repeatedly to skip trough the errors and finally press `Enter and then "q"` to close the floating plugin window. Now close nvim by Pressing `ESC` and than entering `:q!`
      * You are now done. Start nvim again and you should have a working config.
 <hr>
 

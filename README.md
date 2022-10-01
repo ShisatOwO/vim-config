@@ -7,6 +7,8 @@ Highlighting and complompletion are supported for Python, Rust, Java, Toml and J
 ### Requirements
 * A working [Neovim](https://neovim.io/) Installation.
 * Your Terminal's font should be set to a NERDfont. I recommend [Fira Code Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)
+* Npm (Used by Treesitter to install parsers) (optinal)
+* A CXX compiler (Used by Treesitter to compile parsers) (optional)
 
 ### Auto Installation
   * Linux:
@@ -17,6 +19,13 @@ Highlighting and complompletion are supported for Python, Rust, Java, Toml and J
        > Note: You will get errors, this is normal.
      * Press `Enter` repeatedly to skip trough the errors and finally press `Enter and then "q"` to close the floating plugin window. Now close nvim by Pressing `ESC` and than entering `:q!`
      * You are now done. Start nvim again and you should have a working config.
+  * Windows:
+    * Install the fonts located in `fonts`
+    * Open a terminal and navigate to the root of this repository, execute:
+      `python win-nvim-setup`
+      or
+      `py win-nvim-setup`
+    * Follow the onscreen insctructions. This will also install Neovim, Alacritty and  Msys2. If you have already installed one of these 3 just close the respective installer. After the installation is finished, open alacritty (press the windows key and search for Alacritty) and execute `nvim`. After nvim has installed all plugins, close it by pressing `ESC` and then entering `:q!`. Seeing errors during this first run is normal. Start `nvim` again. There shouldnt be any errors now and the config should be applied.
 <hr>
 
 ### Manual Installation

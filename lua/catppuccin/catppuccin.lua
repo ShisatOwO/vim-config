@@ -1,7 +1,8 @@
 function validate(module)
   local ok, _ = pcall(require, module)
   if not ok then
-    print("Failed to load " + module)
+    print("Failed to load " .. module)
+  end
   return ok
 end
 

@@ -10,7 +10,7 @@ Highlighting and complompletion are supported for Python, Rust, Java, Toml and J
 ### Auto Installation
   * Linux:
     ```
-    pushd ~ && git clone https://github.com/ShisatOwO/vim-config && mkdir -p .config/nvim && cp -r vim-config/* .config/nvim && popd && nvim
+    cd ~ && git clone https://github.com/ShisatOwO/vim-config && mkdir -p .config/nvim && cp -r vim-config/* .config/nvim && nvim
     ```
      * Nvim will be started automatically
        > Note: You will get errors, this is normal.

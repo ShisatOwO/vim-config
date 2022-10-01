@@ -6,6 +6,7 @@ Highlighting and complompletion are supported for Python, Rust, Java, Toml and J
 ## Installation
 ### Requirements
 * A working [Neovim](https://neovim.io/) Installation.
+* Your Terminal's font should be set to a NERDfont. I recommend [Fira Code Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)
 
 ### Auto Installation
   * Linux:

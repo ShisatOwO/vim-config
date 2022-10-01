@@ -1,9 +1,16 @@
-require "catppuccin.options"
-require "catppuccin.plugins"
-require "catppuccin.colors"
-require "catppuccin.completion"
-require "catppuccin.sidebar"
-require "catppuccin.completion"
-require "catppuccin.lsp"
-require "catppuccin.treesitter"
-require "catppuccin.shortcuts"
+function validate(module)
+  local ok, _ = pcall(require, module)
+  if not ok then
+    print("Failed to load " + module)
+  return ok
+end
+
+validate("catppuccin.plugins")
+validate("catppuccin.options")
+validate("catppuccin.colors")
+validate("catppuccin.treesitter")
+validate("catppuccin.lsp")
+validate("catppuccin.completion")
+validate("catppuccin.autopair")
+validate("catppuccin.sidebar")
+validate("catppuccin.shortcuts")

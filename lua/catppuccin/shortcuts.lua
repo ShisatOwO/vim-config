@@ -81,5 +81,11 @@ map("n", "<C-f>", ":Telescope find_files<CR>", opts)
 map("n", "<C-g>", ":Telescope live_grep<CR>", opts)
 map("n", "<C-h>", ":Telescope man_pages<CR>", opts)
 
+-- Toogle Terminal
+map("n", "<C-t>", ":ToggleTerm<CR>", opts)
+map("i", "<C-t>", "<ESC>:ToggleTerm<CR>i", opts)
+map("t", "<C-t>", "<ESC>:ToggleTerm<CR>i", opts)
+
 -- Open file Ctrl+o
 map("n", "<C-o>", ":e ", opts)
+

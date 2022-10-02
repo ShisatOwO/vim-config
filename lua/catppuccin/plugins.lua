@@ -72,6 +72,7 @@ return packer.startup(function(use)
   -- Misc
   use "nvim-telescope/telescope.nvim"
   use "akinsho/toggleterm.nvim"
+  use "romgrk/barbar.nvim"
 
   if PACKER_BOOTSTRAP then
     require("packer").sync()

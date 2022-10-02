@@ -9,6 +9,7 @@ end
 validate("catppuccin.plugins")
 validate("catppuccin.options")
 validate("catppuccin.colors")
+validate("catppuccin.tabs")
 validate("catppuccin.toggleterm")
 validate("catppuccin.treesitter")
 validate("catppuccin.lsp")

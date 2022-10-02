@@ -40,12 +40,10 @@ map("n", "<A-h>", ":vsplit<CR>", opts)
 -- Add Window below Alt+v
 map("n", "<A-v>", ":split<CR>", opts)
 
--- Close Window Alt+weap("n", "<S-A-Up>", ":resize -2<CR>", opts)
-map("n", "<S-A-Down>", ":resize +2<CR>", opts)
-map("n", "<S-A-Left>", ":vertical resize -2<CR>", opts)
-map("n", "<S-A-Right>", ":vertical resize +2<CR>", opts)
-
-map("n", "<A-w>", ":bd<CR>", opts)
+-- Close Window Alt+w
+map("n", "<S-A-w>", ":BufferClose<CR><C-w>q", opts)
+map("n", "<A-w>", "<C-w>q", opts)
+map("i", "<A-w>", "<ESC><C-w>q", opts)
 
 -- Toggle explorer with Alt+f
 map("n", "<A-f>", ":SidebarNvimToggle<CR>", opts)

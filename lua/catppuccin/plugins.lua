@@ -73,6 +73,8 @@ return packer.startup(function(use)
   use "nvim-telescope/telescope.nvim"
   use "akinsho/toggleterm.nvim"
   use "romgrk/barbar.nvim"
+  use "igankevich/mesonic"
+  use 'https://gitlab.com/gabmus/vim-blueprint'
 
   if PACKER_BOOTSTRAP then
     require("packer").sync()

@@ -13,7 +13,7 @@ tsitter.setup {
     disable = {""},
     additional_vim_regex_highlighting = true,
   },
-  indent = {enable= true, disable={"python"}},
+  indent = {enable= true, disable={"python", "rust", "java"}},
   rainbow={
     enable = true,
     extended_mode = true,
